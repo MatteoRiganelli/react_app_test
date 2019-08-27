@@ -1,6 +1,7 @@
 import React from "react";
 import headerCss from "../../css/mainLayout/header/header.css";
 import Logo from "../../images/notebook.png";
+import Counter from "../counter.tsx"
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -34,6 +35,9 @@ export default class Header extends React.Component {
             </a>
             <a className="nav-item nav-link" href="#who">
               Who
+            </a>
+            <a className="nav-item nav-link" href="/counter">
+              Counter
             </a>
           </div>
           <div className="navbar-nav">
